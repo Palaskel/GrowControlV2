@@ -17,7 +17,7 @@ void loop() {
   lcd.setCursor(0, 0);
   lcd.print("Temp: "); 
   lcd.print(sensor.readTemperature(), 2);
-  lcd.setCursor(0,  1);
+  lcd.setCursor(0, 1);
   lcd.print("Hum: "); 
   lcd.print(sensor.readHumidity(), 2);
   delay(1000);
